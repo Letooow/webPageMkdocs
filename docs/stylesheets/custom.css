@@ -1,0 +1,20 @@
+/* Убираем верхнюю панель (хедер) */
+/* Полностью скрываем хедер */
+.md-header, .md-header__inner {
+    display: none !important;
+    height: 0 !important;
+    visibility: hidden !important;
+}
+
+/* Убираем левую боковую панель (навигация) */
+.md-sidebar {
+    width: 0 !important;
+    overflow: hidden !important;
+    display: none !important;
+}
+/* Чтобы контент растягивался на всю ширину */
+.md-content {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 80% !important;  /* Можно изменить на 100%, если нужно */
+}

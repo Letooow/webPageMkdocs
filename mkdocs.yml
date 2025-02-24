@@ -1,0 +1,10 @@
+site_name: ' '
+theme:
+  name: cinder
+  features:
+    - toc.integrate  # Отключаем автоматическое оглавление
+  palette:
+    scheme: default
+
+extra_css:
+  - stylesheets/custom.css
